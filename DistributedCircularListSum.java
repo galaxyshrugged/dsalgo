@@ -1,6 +1,6 @@
 /*
 For problem and solution description please visit the link below
-<a href="http://www.dsalgo.com/2013/03/distributed-circular-linked-list-sum.html">http://www.dsalgo.com/2013/03/distributed-circular-linked-list-sum.html</a>
+http://www.dsalgo.com/2013/03/distributed-circular-linked-list-sum.html
 */
 
 package com.dsalgo;
