@@ -5,7 +5,7 @@ http://www.dsalgo.com/2013/02/print-binary-tree-from-bottom-to-top.html
 
 package com.dsalgo;
 
-import java.util.List;
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class PrintBinartyTreeBottomToTopContinuous
@@ -34,8 +34,8 @@ public class PrintBinartyTreeBottomToTopContinuous
  
  private static void printLevelFromBottomToTop(Node root)
  {
-  LinkedList queue=new LinkedList();
-  Stack stack=new Stack();
+  LinkedList<Node> queue=new LinkedList<Node>();
+  Stack<Node> stack=new Stack<Node>();
   queue.add(root);
   while(!queue.isEmpty())
   {

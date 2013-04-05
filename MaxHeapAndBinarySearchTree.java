@@ -14,7 +14,7 @@ public class MaxHeapAndBinarySearchTree
 {
  public static void main(String[] args)
  {
-  List list = new ArrayList();
+  List<Node> list = new ArrayList<Node>();
   for (int i = 0; i < 10; ++i)
   {
    list.add(new Node((int) (30 * Math.random()),
@@ -24,7 +24,7 @@ public class MaxHeapAndBinarySearchTree
   printNice(root);
  }
 
- private static Node createHeapAndBST(List list)
+ private static Node createHeapAndBST(List<Node> list)
  {
   if(list.size()==0)
    return null;
@@ -35,8 +35,8 @@ public class MaxHeapAndBinarySearchTree
     top=node;
   }
   list.remove(top);
-  List leftList=new ArrayList();
-  List rightList=new ArrayList();
+  List<Node> leftList=new ArrayList<Node>();
+  List<Node> rightList=new ArrayList<Node>();
   for(Node node:list)
   {
    if(node.treeValue<=top.treeValue)

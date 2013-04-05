@@ -6,7 +6,7 @@ http://www.dsalgo.com/2013/02/LowestCommonAncestor.php.html
 
 package com.dsalgo;
 
-package problems;
+
 
 public class LowestCommonAncestor
 {
@@ -66,6 +66,15 @@ public class LowestCommonAncestor
   return currentValue + leftValue + rightValue;
 
  }
-
+ static class Node
+ {
+  public Node left;
+  public Node right;
+  public int value;
+  public Node(int value)
+  {
+   this.value=value;
+  }
+ }
 }
        

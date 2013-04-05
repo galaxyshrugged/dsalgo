@@ -36,8 +36,8 @@ public class EqualSumPartition
 
  private static Integer[][] partition(Integer[] arr)
  {
-  List list = new ArrayList();
-  List part = new ArrayList();
+  List<Integer> list = new ArrayList<Integer>();
+  List<Integer> part = new ArrayList<Integer>();
 
   int sum = 0;
   for (Integer num : arr)

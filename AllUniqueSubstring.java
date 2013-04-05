@@ -6,7 +6,6 @@ http://www.dsalgo.com/2013/02/AllUniqueSubstring.php.html
 
 package com.dsalgo;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class AllUniqueSubstring

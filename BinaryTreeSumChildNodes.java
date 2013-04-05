@@ -5,6 +5,7 @@ http://www.dsalgo.com/2013/02/BinaryTreeSumChildNodes.php.html
 
 package com.dsalgo;
 
+
 /*
  * In a binary tree change each node's value(except leaf node) as the sum of left and right subtree's value. 
  * 
@@ -89,6 +90,16 @@ public class BinaryTreeSumChildNodes
     printNice(root.right);
     System.out.print("]");
    }
+  }
+ }
+ static class Node
+ {
+  public Node left;
+  public Node right;
+  public int value;
+  public Node(int value)
+  {
+   this.value=value;
   }
  }
 }        
