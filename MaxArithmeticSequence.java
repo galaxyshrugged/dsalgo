@@ -1,10 +1,11 @@
+/*
+For problem and solution description please visit the link below
+http://www.dsalgo.com/2013/04/maximum-arithmetic-sequence-in-array.html
+*/
 package com.dsalgo;
 
 public class MaxArithmeticSequence {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int[]arr={2,5,3,6,9,12,15,34,23};
 		findMaxArithmeticSequence(arr);
