@@ -1,3 +1,6 @@
+Given a binary tree find the sum of nodes present at odd levels. 
+That means excluding nodes at every alternate levels.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/03/binary-tree-sum-of-nodes-at-odd-levels.html
