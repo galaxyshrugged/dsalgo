@@ -1,3 +1,10 @@
+Find repetition in multiple sorted arrays without using extra space. 
+There are k sorted arrays. We have to find whether some numbers are repeating in any
+one of those arrays. Here k is constant and we are allowed extra space in the order of k
+as they are constant. 
+The constraint is not to use extra space in order of the length of the arrays.
+
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/FindRepetitionWithoutExtraSpace.php.html
