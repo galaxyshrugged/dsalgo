@@ -1,3 +1,8 @@
+
+TwoSum Problem - Recursive Solution
+Given an integer array and a number k.
+Find out whether it is possible to have a sum k by using any number of numbers from the array.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/AnyNumberSumUptoKRecursive.php.html
