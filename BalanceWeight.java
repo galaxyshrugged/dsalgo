@@ -1,3 +1,14 @@
+There are some weighing scales which has left and right plates.
+The weighing scales are very compact and plates are pretty big.
+As a result of this, one weighing scale can be put into another weighing scale's plate.
+At the same time some weights can be put onto the plates along with the weighing scale. 
+The empty weighing scale has a fixed predefined weight.
+Only one weighing scale can be accommodated in one plate. 
+However any number of weights can be put into the plate, even after putting one weighing scale.
+One such arrangement is given as an input to your program. 
+There are enough supply of weights and they can be of fractional value as well.
+The program should add weights to the plates to balance the weighing scales. 
+The ultimate result would be that all the weighing scales are balanced.
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/BalanceTheBalance.php.html
