@@ -1,3 +1,5 @@
+Find whether a given binary tree is a binary search tree or not.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/CheckForBST.php.html
