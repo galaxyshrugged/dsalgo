@@ -1,5 +1,7 @@
 
+Given a string find out the longest substring which has all unique letters, i.e. no letter is repeated.
 /*
+
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/AllUniqueSubstring.php.html
 */
