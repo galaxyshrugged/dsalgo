@@ -1,3 +1,11 @@
+You are given a binary tree where each node has an integer value
+, a left, right and parent pointer. Every node is an independent 
+distributed system where a thread is running in each node. You can
+talk to other node only by one method called "send(node, data)".
+And a node can call "send" only to its children or parent. How will 
+you design the system so that all the nodes know the total sum of values of all
+the nodes in the binary tree and report them asynchronously.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/03/distributed-binary-tree-sum.html
