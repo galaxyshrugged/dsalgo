@@ -1,3 +1,8 @@
+Find the distance between two nodes in a binary tree. 
+Every node of the binary tree has left pointer, right pointer and value.
+There is no parent pointer given in the nodes. Given two nodes or node values of such a binary tree
+and root of the tree given, find the distance between the given nodes.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/find-distance-between-two-nodes-in.html
