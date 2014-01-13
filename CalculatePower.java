@@ -1,3 +1,8 @@
+Calculate x to the power y.
+Constraint
+Complexity should be less than O(n).
+
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/CalculatePower.php.html
