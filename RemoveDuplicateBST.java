@@ -1,3 +1,7 @@
+
+You are given an infinite stream of integers. The stream of integers is unsorted and are provided by 
+iterator so that you don't have the access to all the elements at once. You have to return another
+iterator from the input iterator so that there are no duplicates and the input order is maintained.
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/03/remove-duplicate-infinite-integer.html
