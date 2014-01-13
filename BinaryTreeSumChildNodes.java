@@ -1,3 +1,5 @@
+In a binary tree change each node's value(except leaf node) as the sum of left and right subtree's value.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/BinaryTreeSumChildNodes.php.html
