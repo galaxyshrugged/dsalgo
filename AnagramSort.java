@@ -1,3 +1,7 @@
+Given an array of strings sort it such that the anagrams come side by side. 
+A word is called anagram of another word, if one can be formed by rearranging the letters
+of the other, without any addition or deletion of letters.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/03/sort-to-bring-anagrams-closer.html
