@@ -1,3 +1,6 @@
+You are given a binary tree. Print the level of the binary tree which has the maximum number of nodes. 
+Break tie arbitrarily. 
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/03/binary-tree-level-with-maximum-number.html
