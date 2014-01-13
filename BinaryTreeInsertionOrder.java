@@ -1,3 +1,5 @@
+Design a binary search tree where the insertion order is maintained. 
+
 /*
 
 For problem and solution description please visit the link below
