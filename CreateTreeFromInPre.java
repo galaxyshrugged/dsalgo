@@ -1,3 +1,14 @@
+Create a binary tree from given inorder and preorder traversal.
+Solution
+
+The first node in the preorder traversal is the root. Now if we try to find the root node
+in the inorder array, all the elements to its left will be in left subtree of root and elements
+to its right will be in right subtree of root. We recursively call the function for its left and 
+right and continuously increase the preorder index. As java does not support pass by reference,
+we will pass an single element array so that the value change can be reflected outside the function.
+
+
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/CreateTreeFromInPre.php.html
