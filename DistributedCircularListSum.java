@@ -1,3 +1,14 @@
+Problem
+
+
+You are given a circular linked list whose nodes are distributed. 
+Every node has next pointer and a method send(integer). A node can talk to its next node only. 
+Different instances of same  threads are running in the nodes. How would you implement the run
+method of the thread class so that each node prints the sum of complete linked list.
+
+
+
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/03/distributed-circular-linked-list-sum.html
