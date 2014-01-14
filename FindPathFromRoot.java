@@ -9,7 +9,6 @@ we add it to a list and return. In this way from any node we check the path retu
 right and left children, any non null path contains the node.
 
 
-
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/find-path-of-node-from-root.html
