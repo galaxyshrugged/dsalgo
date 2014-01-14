@@ -1,3 +1,20 @@
+Find all permutations
+
+Problem
+
+
+Find all the permutations of a given string whose letters are unique.
+Solution
+
+
+Suppose the string is abcd. Then in its permutations, first letter can be a, b, c or d. 
+If we decide any one of these as the first letter. Then the subproblem arises of having permutations
+of the rest of the letters. We solve this by recursion.
+
+
+
+
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/find-all-permutations.html
