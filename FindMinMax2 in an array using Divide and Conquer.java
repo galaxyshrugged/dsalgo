@@ -1,3 +1,20 @@
+Problem
+Given an array of integers, find the maximum and minimum of the array.
+
+Constraint
+Find the answer in minimum number of comparisons.
+
+Brute force
+We can keep two variables named max and min. We can iterate over the list and compare each number
+with the min and the max, if the number is greater than the max update max, if the number is less
+than the min, update the min. In this brute force solution the number of comparison is 2*n.
+
+
+Divide and conquer method
+In this approach we are dividing the list in two parts, each part is recursively providing the min
+and max of that part and then two min max are compared to decide the ultimate min and max. Recursively
+when the array is reduced to only a single element then the element itself become min and max.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/FindMinMax.php.html
