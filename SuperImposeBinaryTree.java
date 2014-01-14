@@ -1,3 +1,34 @@
+Given two binary trees, find the resultant binary tree if we put one binary tree on top of another. For example,
+
+          Below
+
+             9
+         /       \
+      3          5
+    /            /  \
+  2            4    6
+
+       Above
+
+           7
+       /      \
+    3          8
+              /
+           1
+              \
+               5
+
+         Result
+            7
+         /     \
+       3        8
+     /         /    \
+   2        1        6
+               \
+                 5
+
+Just look how the 2 and 6 are visible from the below tree and rest are covered by above tree.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/superimpose-binary-tree.html
