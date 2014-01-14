@@ -1,3 +1,21 @@
+Given a snakes and ladder board, find out the minimum move to reach to the top.
+Brute force
+
+From any cell the dice throw can decide 6 new positions. So if we try to find out 
+all possible paths, it will give 6^n such paths.
+Better solution
+
+We can consider any cell of the snakes and ladders board as a vertex. From any vertex we can 
+have 6 different vertex where we can go based on the dice throw. We can think of these as 6 edges
+with cost 1, going towards 6 different vertexes. We can apply BFS to find the shortest path. We start
+from cell 1, we mark all the cells that can be reached by 1 throw of dice as 1. if any one of these 
+cells are starting point of a snake or ladder we mark the endpoint of that snake or ladder instead.
+So we start from cell 1 and after this step all the cells marked as 1 can be reached by 1 throw. 
+Then we put all these nodes in a queue and try to find all the cells that are one throw away from 
+those cells. Then we mark them as 2 and put them in queue. In this way when the cell 100 is reached
+we found the path. To reconstruct the path we keep the dice throw that caused us to reach a particular
+cell and the previous cell from where we reach there in two separate arrays.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/SnakesAndLadders.php.html
