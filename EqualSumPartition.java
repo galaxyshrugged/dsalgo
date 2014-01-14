@@ -1,3 +1,4 @@
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/back-to-content-array-equal-sum.html
