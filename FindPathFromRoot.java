@@ -1,3 +1,15 @@
+Find path of a node from root
+
+Problem
+Given a binary tree and one of its nodes, find the path from root to the given node
+
+Solution
+We solve this by recursion. We start from the root. If the current node is equal to the given node 
+we add it to a list and return. In this way from any node we check the path returned by
+right and left children, any non null path contains the node.
+
+
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/find-path-of-node-from-root.html
