@@ -1,3 +1,28 @@
+Problem
+
+
+Given a binary tree find the node(s) at its deepest level. For example,
+
+  Constructed binary tree is:
+                    1
+                 /      \
+                2        3
+              /  \        \
+             4   5        8
+                        /    \
+                       6       7
+
+
+The output would be 6,7
+Solution
+
+We do a preorder traversal of the tree. While calling the recursive function we pass an array
+containing level and list of nodes. During the preorder traversal, this same array is always passed.
+So the elements of this array work as global variables. Whenever we call the recursive function to 
+a node's children we increase the level by 1. At each node if the level value in the array is less 
+than the current level value then we clear the previous node list, as we found a deeper level.
+If the level value is equal then we keep on adding the current node in the list.
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/03/find-deepest-nodes-of-binary-tree.html
