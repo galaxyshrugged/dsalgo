@@ -1,3 +1,15 @@
+Given a binary tree and a number, find out whether any path of the binary tree sums up to k. 
+The binary tree nodes contain numbers. The path can be starting from anywhere, but it should not
+skip any node in its path. It should be continuous nodes along a path which sums up to k.
+Solution
+
+We try to solve it recursively, Suppose the given sum is k and the root of the binary tree is given. 
+If k is equal to the value of the root node then we will return true. If the value is not equal to k 
+then we will try to find the sum (k-value) in the left and right subtree by calling the same function. 
+If anyone of those returns true, that means a path exists including the root which sums up to k. But 
+the path may not start at the root, it can start anywhere. So along with the two calls with 'k-value'
+we call the left and right subtree with the original sum k also. If that returns true that means the path 
+starts from somewhere else other than root.
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/does-any-path-adds-up-to-given-sum.html
