@@ -1,3 +1,21 @@
+Fold a linked list
+
+Problem
+
+Fold a linked list such that the last element becomes second element, last but one element
+becomes 4 th element and so on. For example input linked list: 1->2->3->4->5->6->7->8->9-> output
+linked list 1->9->2->8->3->7->4->6->5->
+
+Solution
+
+Find the middle of the linked list. You can do it by slow and fast pointer approach. 
+Start two pointers from head. Advance one pointer at a rate of one node per iteration.
+Let's call it slow pointer. Advance another pointer at a rate of two nodes per iteration. 
+Let's call it fast pointer. When the fast pointer will reach the end of the linked list, the 
+slow pointer will be at the middle of the linked list. After finding the middle node, we reverse 
+the right half. then we do a in place merge of the two halves of the linked list.
+
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/FoldLinkedList.php.html
