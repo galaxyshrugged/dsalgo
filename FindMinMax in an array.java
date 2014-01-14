@@ -1,3 +1,20 @@
+Problem
+Given an array of integers, find the maximum and minimum of the array.
+
+Constraint
+Find the answer in minimum number of comparisons.
+
+Brute force
+We can keep two variables named max and min. We can iterate over the list and compare each number
+with the min and the max, if the number is greater than the max update max, if the number is less
+than the min, update the min. In this brute force solution the number of comparison is 2*n.
+
+Better solution
+If rather than comparing each number with max and min, we can first compare the numbers in pair with
+each other. Then compare the larger number with max and compare the smaller number with min. in this 
+way the number of comparison for a pair of numbers are 3. So number of comparisons are 1.5 *n.
+
+
 /*
 For problem and solution description please visit the link below
 http://www.dsalgo.com/2013/02/FindMinMax.php.html
